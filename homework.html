@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Homework - Change Colour</title>
+</head>
+<body>
+
+  <h1>Homework</h1>
+
+  <p id="myText">This text will change colour.</p>
+
+  <button onclick="makeRed()">Red</button>
+  <button onclick="makeBlue()">Blue</button>
+
+  <script>
+    function makeRed() {
+      document.getElementById("myText").style["color"] = "red";
+    }
+
+    function makeBlue() {
+      document.getElementById("myText").style["color"] = "blue";
+    }
+  </script>
+
+</body>
+</html>
