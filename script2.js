@@ -1,5 +1,5 @@
 function msg() {
-    document.write("You clicked the button!");
+    document.write("You clicked the button! Congratulations!");
 }
 
 function msg2() {
